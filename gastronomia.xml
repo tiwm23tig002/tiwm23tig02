@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pratos>
+    <prato>
+        <nome>Cachupa</nome>
+        <ingredientes>Milho, feijão, legumes, carne, chouriço, azeite e tempero a gosto</ingredientes>
+        <tempPrep>1h30 mins </tempPrep>
+    </prato>
+
+    <prato>
+        <nome>Pastel de Milho</nome>
+        <ingredientes>Farinha de milho, peixe, batata doce, cebola, salsa, azeite e tempero a gosto</ingredientes>
+        <tempPrep>30 mins</tempPrep>
+    </prato>
+
+    <prato>
+        <nome>Bolo de cenoura</nome>
+        <ingredientes>Cenouras, ovos, açúcar, farinha, óleo e fermento</ingredientes>
+        <tempPrep>40 mins</tempPrep>
+    </prato>
+
+    <prato>
+        <nome>Doce de Papaia</nome>
+        <ingredientes>Açúcar, papaia verde, raspa de limão, folha de figueira e água</ingredientes>
+        <tempPrep>2 h</tempPrep>
+    </pratos>
+
+    <prato>
+        <nome>Gelado de Bolacha</nome>
+        <ingredientes>Bolacha, natas e leite condensado</ingredientes>
+        <tempPrep>15 mins</tempPrep>
+
+    <prato>
+        <nome>Cuscuz</nome>
+        <ingredientes>Farinha de milho, fécula de batata, açúcar e água</ingredientes>
+        <tempPrep>10 mins</tempPrep>
+</pratos>

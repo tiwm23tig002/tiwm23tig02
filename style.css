@@ -1,0 +1,274 @@
+body {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
+    background-color: rgb(226, 251, 251);
+    background-image: none;
+    margin: 0;
+    padding: 0;
+
+}
+.body-content {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+header {
+    background-color:rgb(178, 237, 237);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: white;
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+    float: none;
+}
+
+footer {
+    background-color: azure;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    float: none;
+}
+
+nav {
+    background-color: azure;
+    text-align: center;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    float: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.container2 {
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 7px solid blue;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+.image-container {
+    flex: 1;
+    margin: 0 20px;
+    border: 2px solid #ccc;
+    padding: 0 20px;
+    text-align: center;
+}
+  
+.content {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+  
+.content2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(180, 5, 5);
+    text-align: center;
+}
+  
+.content3 {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+  
+h1 {
+    text-align: center;
+    color: red;
+}
+    
+h2 {
+    text-align: center;
+    color: rgb(100, 4, 4);
+}
+h3 {
+    text-align: center;
+    color: rgb(25, 0, 255);
+}
+h4 {
+    text-align: center;
+    color:#000000;
+}
+p {
+    text-align: center;
+}
+
+.mapa {
+    max-width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+  
+.video {
+    max-width: 1000px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+  
+.video iframe,
+  .video video {
+    width: 100%;
+    height: 100%;
+}
+  
+.hr-custom {
+    width: 50%;
+    height: 1px;
+    background-color: rgb(180, 5, 5);
+    border: none;
+    margin: 10px auto;
+    align-items: center;
+}
+  
+.elemento-invisivel {
+    visibility: hidden;
+}
+  
+strong {
+    font-weight: bold;
+    color: #000000;
+}
+  
+ul
+{
+    list-style-type: circle;
+    background-color:rgb(69, 234, 234);
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+form,
+#newsletter-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #f7f4cd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#newsletter-container {
+  width: auto;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5ee8d;
+}
+
+form input,
+#newsletter-form input,
+form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-btn,
+#newsletter-submit {
+  background-color: #992532;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.botao-form {
+  background-color: #992532;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-form:hover {
+  background-color: #606305bb;
+}
+
+.centro-conteudo-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.tooltip:hover::after {
+    content: attr(data-table);
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .image {
+      height: 300px;
+    }
+    .video{
+        height: fit-content;
+    }
+    .mapa{
+        height: fit-content;
+    }
+}
