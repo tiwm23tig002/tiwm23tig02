@@ -74,14 +74,13 @@ nav a {
     border-radius: 10px;
     margin-bottom: 12px;
 }
-.image-container {
-    flex: 1;
-    margin: 0 20px;
-    border: 2px solid #ccc;
-    padding: 0 20px;
-    text-align: center;
+
+img {
+    max-width: 1000px;
+    max-height: 800px;
+    width: auto
 }
-  
+
 h1 {
     text-align: center;
     color: red;
