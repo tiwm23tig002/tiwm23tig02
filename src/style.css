@@ -22,9 +22,9 @@ header {
 }
 
 .link:hover {
-    color: white;
-    transition: transform 0.3s ease;
-    transform: scale(1.2);
+    color: rgb(180, 183, 12);
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
     float: none;
 }
 
@@ -82,25 +82,6 @@ nav a {
     text-align: center;
 }
   
-.content {
-    flex-grow: 1;
-    margin-left: 10px;
-}
-  
-.content2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(180, 5, 5);
-    text-align: center;
-}
-  
-.content3 {
-    margin: 20px;
-    padding: 0;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-  
 h1 {
     text-align: center;
     color: red;
@@ -108,8 +89,9 @@ h1 {
     
 h2 {
     text-align: center;
-    color: rgb(100, 4, 4);
+    color: rgb(224, 168, 168);
 }
+
 h3 {
     text-align: center;
     color: rgb(25, 0, 255);
@@ -134,30 +116,22 @@ p {
     align-items: center;
     position: relative;
     margin-bottom: 30px;
-}
+  }
   
-.video {
+  .video {
     max-width: 1000px;
     width: 100%;
     height: 400px;
     margin: 0 auto;
     position: relative;
-}
+  }
   
-.video iframe,
+  .video iframe,
   .video video {
     width: 100%;
     height: 100%;
-}
-  
-.hr-custom {
-    width: 50%;
-    height: 1px;
-    background-color: rgb(180, 5, 5);
-    border: none;
-    margin: 10px auto;
-    align-items: center;
-}
+  }  
+
   
 .elemento-invisivel {
     visibility: hidden;
@@ -170,7 +144,7 @@ strong {
   
 ul
 {
-    list-style-type: circle;
+    list-style: none;
     background-color:rgb(69, 234, 234);
     padding: 10px;
     border-radius: 25px;
@@ -188,7 +162,7 @@ form,
   padding: 10px;
   background-color: #f7f4cd;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 #newsletter-container {
@@ -203,40 +177,10 @@ form input,
 #newsletter-form input,
 form textarea {
   width: 90%;
+  background-color: #ffffff;
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
-}
-
-.form-btn,
-#newsletter-submit {
-  background-color: #992532;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
-.botao-form {
-  background-color: #992532;
-  color: white;
-  padding: 10px 15px;
-  margin-top: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.botao-form:hover {
-  background-color: #606305bb;
-}
-
-.centro-conteudo-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .tooltip {
