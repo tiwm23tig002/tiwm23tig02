@@ -1,62 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <meta charset="utf-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1 " >
-        <link rel="stylesheet" href="style.css" >
-        <title id="pageTitle"> Cabo Verde- Um destino de sonho</title>
-    </head>
-    <body>
-        <header>
-            <h1>Cabo Verde- Um destino de sonho</h1>
-        </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 " />
+    <link rel="stylesheet" href="style.css" />
+    <title id="pageTitle">Cabo Verde - Um destino de sonho</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cabo Verde - Um destino de sonho</h1>
+    </header>
 
-        <main>
-            <nav>
-                <a href="DescricaoeHistoria.html">Descrição do país e História</a>
-                <a href="Grupos.html">Grupos</a>
-                <a href="GastronomiaeCostumes.html">Gastronomia Local e Costumes/Tradições</a>
-                <a href="Turismo.html">Pontos Turísticos</a>
-            </nav>
+    <main>
+      <nav>
+        <a href="DescricaoeHistoria.html">Descrição do país e História</a>
+        <a href="Grupos.html">Grupos</a>
+        <a href="GastronomiaeCostumes.html"
+          >Gastronomia Local e Costumes/Tradições</a
+        >
+        <a href="Turismo.html">Pontos Turísticos</a>
+      </nav>
 
-            <section>
-                <br >
-                <h2 class="content2">Mapa do Arquipélago de Cabo Verde</h2>
-                <br >
-                <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7837597.000388956!2d-22.29912822998945!3d16.42728126496394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f2159115131%3A0x6b1af236f918ea1f!2sCabo%20Verde!5e0!3m2!1spt-PT!2spt!4v1706029570008!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
+      <section>
+        <br />
+        <h2 class="content2">Mapa do Arquipélago de Cabo Verde</h2>
+        <br />
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7837597.000388956!2d-22.29912822998945!3d16.42728126496394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9358f2159115131%3A0x6b1af236f918ea1f!2sCabo%20Verde!5e0!3m2!1spt-PT!2spt!4v1706029570008!5m2!1spt-PT!2spt"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
 
-            <section>
-                <br >
-                <h2 class="content2">Vídeo Descritivo de Cabo Verde</h2>
-                <br >
-                <div class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWIlC89MG3s?si=jFe2y3HWsxcbxSZK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      <section>
+        <br />
+        <h2 class="content2">Vídeo Descritivo de Cabo Verde</h2>
+        <br />
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aWIlC89MG3s?si=jFe2y3HWsxcbxSZK"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+      <section id="newsletter-form">
+        <h2>
+          Junte-se a nós, e obtenha mais informações sobre este destino
+          paradisíaco!
+        </h2>
+        <p>
+          Forneça-nos o seu email, e acompanhe todas as novidades que temos para
+          si!
+        </p>
+        <div class="elemento invisível"></div>
+        <form id="information-form" method="post">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder=" Introduza aqui o seu email... "
+            required
+          />
+          <input type="submit" value="Submeter" id="information-submit" />
+        </form>
+        <script src="validInfo.js"></script>
+      </section>
+    </main>
 
-                    </iframe>
-                        
-                  
-                </div>
-            </section>
-            <section id="newsletter-form">
-                <h2>Junte-se a nós, e obtenha mais informações sobre este destino paradisíaco!</h2>
-                <p>Forneça-nos o seu email, e acompanhe todas as novidades que temos para si!</p>
-                <div class="elemento invisível"></div>
-                <form id="information-form" method="post">
-                    <input type="email" id="email" name="email" placeholder= " Introduza aqui o seu email... " required >
-                    <input type="submit" value="Submeter" id="information-submit" >      
-                </form>
-                <script src="validInfo.js"></script>
-            </section>
-        </main>
-
-        <footer>
-            <p>® 2023 Cabo Verde-Um destino de sonho</p>
-            <figure>
-                <p><a href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Cape_Verde.svg#/media/Ficheiro:Coat_of_arms_of_Cape_Verde.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coat_of_arms_of_Cape_Verde.svg" alt="Brasão de armas de Cabo Verde" height="90" width="90"></a>
-            </figure>
-        </footer>
-    </body>
+    <footer>
+      <p>® 2023 Cabo Verde-Um destino de sonho</p>
+      <figure>
+        <p>
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Cape_Verde.svg#/media/Ficheiro:Coat_of_arms_of_Cape_Verde.svg"
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Coat_of_arms_of_Cape_Verde.svg"
+              alt="Brasão de armas de Cabo Verde"
+              height="90"
+              width="90"
+          /></a>
+        </p>
+      </figure>
+    </footer>
+  </body>
 </html>
