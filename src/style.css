@@ -213,6 +213,37 @@ form textarea {
     text-align: center;
 }
 
+/* Estilo para a tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para as células da tabela */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para as células do cabeçalho da tabela */
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para linhas alternadas da tabela */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover sobre as linhas da tabela */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
 @media only screen and (max-width: 768px) {
     .image {
       height: 300px;
