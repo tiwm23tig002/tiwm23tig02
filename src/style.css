@@ -207,7 +207,6 @@ form textarea {
 }
 
 .tablexml {
-    width: 50%;
     margin: auto;
     text-align: center;
 }
@@ -254,8 +253,5 @@ tr:hover {
     .mapa{
         height: fit-content;
     }
-    .tablexml{
-        text-align: center;
-        margin: auto;
-    }
+
 }
