@@ -261,6 +261,12 @@ form textarea {
     opacity: 1;
 }
 
+.tablexml {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     .image {
       height: 300px;
