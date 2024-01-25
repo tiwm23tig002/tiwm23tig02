@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<comidas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="gastronomia.xsd">
+
 <pratos>
     <prato>
         <nome>Cachupa</nome>
