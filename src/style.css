@@ -256,5 +256,6 @@ tr:hover {
     }
     .tablexml{
         text-align: center;
+        margin: auto;
     }
 }
