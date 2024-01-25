@@ -218,7 +218,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Estilo para as células da tabela */
@@ -230,7 +230,7 @@ th, td {
 
 /* Estilo para as células do cabeçalho da tabela */
 th {
-    background-color: #f2f2f2;
+    background-color: #f5ee8d;
 }
 
 /* Estilo para linhas alternadas da tabela */
